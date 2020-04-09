@@ -41,7 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="bllCRUD.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TeknoLojistik.Web.DAL\TeknoLojistik.Web.DAL.csproj">
+      <Project>{3B91117D-B056-4AFF-A36E-2F3D7449558D}</Project>
+      <Name>TeknoLojistik.Web.DAL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

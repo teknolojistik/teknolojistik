@@ -67,14 +67,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CRUD.asmx" />
+    <Content Include="CRUD.html" />
     <Content Include="css\Login.css" />
     <Content Include="Global.asax" />
+    <Content Include="lib\jquery.js" />
     <Content Include="Login.asmx" />
     <Content Include="Pages\Login.aspx" />
+    <Content Include="lib\crud.js" />
     <Content Include="Scripts\login.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CRUD.asmx.cs">
+      <DependentUpon>CRUD.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -101,7 +109,16 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\TeknoLojistik.Web.BLL\TeknoLojistik.Web.BLL.csproj">
+      <Project>{942F6ADC-2E11-420D-AC93-44504FB27C36}</Project>
+      <Name>TeknoLojistik.Web.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TeknoLojistik.Web.DAL\TeknoLojistik.Web.DAL.csproj">
+      <Project>{3B91117D-B056-4AFF-A36E-2F3D7449558D}</Project>
+      <Name>TeknoLojistik.Web.DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

@@ -1,0 +1,12 @@
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\bin\Debug\TeknoLojistik.Web.BLL.dll
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\bin\Debug\TeknoLojistik.Web.BLL.pdb
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\bin\Debug\TeknoLojistik.Web.DAL.dll
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\bin\Debug\EntityFramework.dll
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\bin\Debug\TeknoLojistik.Web.DAL.pdb
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\bin\Debug\TeknoLojistik.Web.DAL.dll.config
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\bin\Debug\EntityFramework.xml
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\obj\Debug\TeknoLojistik.Web.BLL.csprojAssemblyReference.cache
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\obj\Debug\TeknoLojistik.Web.BLL.csproj.CoreCompileInputs.cache
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\obj\Debug\TeknoLojistik.Web.BLL.csproj.CopyComplete
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\obj\Debug\TeknoLojistik.Web.BLL.dll
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\obj\Debug\TeknoLojistik.Web.BLL.pdb

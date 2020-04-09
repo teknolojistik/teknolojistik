@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeknoLojistik.Web.DAL", "Te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeknoLojistik.Web.BLL", "TeknoLojistik.Web.BLL\TeknoLojistik.Web.BLL.csproj", "{942F6ADC-2E11-420D-AC93-44504FB27C36}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeknoLojistik.Web.Service", "TeknoLojistik.Web.Service\TeknoLojistik.Web.Service.csproj", "{EC33D3CA-4A37-41AD-9618-4DF3CAD0EFD3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{942F6ADC-2E11-420D-AC93-44504FB27C36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{942F6ADC-2E11-420D-AC93-44504FB27C36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{942F6ADC-2E11-420D-AC93-44504FB27C36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC33D3CA-4A37-41AD-9618-4DF3CAD0EFD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC33D3CA-4A37-41AD-9618-4DF3CAD0EFD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC33D3CA-4A37-41AD-9618-4DF3CAD0EFD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC33D3CA-4A37-41AD-9618-4DF3CAD0EFD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
