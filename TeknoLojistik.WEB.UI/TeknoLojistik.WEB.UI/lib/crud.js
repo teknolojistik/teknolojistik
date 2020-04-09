@@ -1,4 +1,5 @@
 ﻿var CRUD = {
+
     Ekle: function () {
         var data =
         {
@@ -23,5 +24,17 @@
                 console.log(o);
             }
         })
+    },
+
+    Sil: function () {
+
+    },
+
+    Guncelle: function () {
+
+    },
+
+    Listele: function () {
+
     }
 }

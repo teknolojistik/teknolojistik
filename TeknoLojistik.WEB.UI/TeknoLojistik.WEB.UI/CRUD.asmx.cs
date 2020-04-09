@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -22,6 +23,7 @@ namespace TeknoLojistik.WEB.UI
         [WebMethod]
         public int Ekle(Personel p)
         {
+            //Personel prs = JsonConvert.DeserializeObject<Personel>(p);
             return bllCRUD.Ekle(p);
         }
     }

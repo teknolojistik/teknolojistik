@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace TeknoLojistik.Web.DAL.DB
 {
+    [Serializable]
     public class Personel
     {
         public int Id { get; set; }
