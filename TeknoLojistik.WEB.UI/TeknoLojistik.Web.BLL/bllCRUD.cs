@@ -21,5 +21,16 @@ namespace TeknoLojistik.Web.BLL
                 throw;
             }
         }
+        public static int Sil(int Id)
+        {
+            try
+            {
+                return dalCRUD.Sil(Id);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
     }
 }
