@@ -38,5 +38,29 @@ namespace TeknoLojistik.Web.DAL
             }
 
         }
+
+
+        public static int Guncelle(int Id)
+        {
+
+           
+
+            try
+            {
+                TeknoLojistikContext ctx = new TeknoLojistikContext();
+
+                var deger = ctx.Personeller.Where(o => o.Id == Id).SingleOrDefault();
+                ctx.Personeller.Find(deger);
+
+                //var deger = ctx.Personeller.First<Personel>();
+                //deger.Ad = "EDAG";
+                return ctx.SaveChanges();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+
+        }
     }
 }

@@ -1,0 +1,6 @@
+C:\Users\eda\Desktop\Tutanamayanlar\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.Service\bin\Debug\TeknoLojistik.Web.Service.dll
+C:\Users\eda\Desktop\Tutanamayanlar\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.Service\bin\Debug\TeknoLojistik.Web.Service.pdb
+C:\Users\eda\Desktop\Tutanamayanlar\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.Service\obj\Debug\TeknoLojistik.Web.Service.csprojAssemblyReference.cache
+C:\Users\eda\Desktop\Tutanamayanlar\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.Service\obj\Debug\TeknoLojistik.Web.Service.csproj.CoreCompileInputs.cache
+C:\Users\eda\Desktop\Tutanamayanlar\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.Service\obj\Debug\TeknoLojistik.Web.Service.dll
+C:\Users\eda\Desktop\Tutanamayanlar\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.Service\obj\Debug\TeknoLojistik.Web.Service.pdb

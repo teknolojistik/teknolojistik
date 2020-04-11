@@ -32,5 +32,11 @@ namespace TeknoLojistik.WEB.UI
         {
             return bllCRUD.Sil(Id);
         }
+        [WebMethod]
+        public int Guncelle(int Id)
+        {
+            return bllCRUD.Guncelle(Id);
+        }
+
     }
 }
