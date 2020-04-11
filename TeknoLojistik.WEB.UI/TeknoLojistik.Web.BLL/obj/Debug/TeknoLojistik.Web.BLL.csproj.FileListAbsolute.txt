@@ -21,3 +21,6 @@ D:\Ossy Files\GitHub\teknolojistik\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojis
 D:\Ossy Files\GitHub\teknolojistik\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\obj\Debug\TeknoLojistik.Web.BLL.csproj.CopyComplete
 D:\Ossy Files\GitHub\teknolojistik\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\obj\Debug\TeknoLojistik.Web.BLL.dll
 D:\Ossy Files\GitHub\teknolojistik\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\obj\Debug\TeknoLojistik.Web.BLL.pdb
+D:\Ossy Files\GitHub\teknolojistik\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\bin\Debug\TeknoLojistik.Web.BLL.dll.config
+D:\Ossy Files\GitHub\teknolojistik\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Ossy Files\GitHub\teknolojistik\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\bin\Debug\EntityFramework.SqlServer.xml

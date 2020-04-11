@@ -67,6 +67,10 @@
     <Compile Include="Migrations\202004062018141_SehirIlceTablo.designer.cs">
       <DependentUpon>202004062018141_SehirIlceTablo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202004102016525_PersonelTablo.cs" />
+    <Compile Include="Migrations\202004102016525_PersonelTablo.designer.cs">
+      <DependentUpon>202004102016525_PersonelTablo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -80,6 +84,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202004062018141_SehirIlceTablo.resx">
       <DependentUpon>202004062018141_SehirIlceTablo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004102016525_PersonelTablo.resx">
+      <DependentUpon>202004102016525_PersonelTablo.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

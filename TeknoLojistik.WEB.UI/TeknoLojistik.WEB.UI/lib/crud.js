@@ -20,6 +20,17 @@
 
     Sil: function () {
 
+        $.ajax({
+            url: "/CRUD.asmx/Sil",
+            data: { Id: 1 },
+            method: "post",
+            success: function (o) {
+                console.log(o);
+            },
+            error: function (o) {
+                console.log(o);
+            }
+        })
     },
 
     Guncelle: function () {

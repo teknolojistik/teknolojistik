@@ -42,3 +42,4 @@ D:\Ossy Files\GitHub\teknolojistik\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojis
 D:\Ossy Files\GitHub\teknolojistik\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.DAL\obj\Debug\TeknoLojistik.Web.DAL.csproj.CopyComplete
 D:\Ossy Files\GitHub\teknolojistik\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.DAL\obj\Debug\TeknoLojistik.Web.DAL.dll
 D:\Ossy Files\GitHub\teknolojistik\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.DAL\obj\Debug\TeknoLojistik.Web.DAL.pdb
+D:\Ossy Files\GitHub\teknolojistik\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.DAL\obj\Debug\TeknoLojistik.Web.DAL.Migrations.PersonelTablo.resources

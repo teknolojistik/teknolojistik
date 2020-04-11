@@ -26,5 +26,11 @@ namespace TeknoLojistik.WEB.UI
         {
             return bllCRUD.Ekle(p);
         }
+
+        [WebMethod]
+        public int Sil(int Id)
+        {
+            return bllCRUD.Sil(Id);
+        }
     }
 }

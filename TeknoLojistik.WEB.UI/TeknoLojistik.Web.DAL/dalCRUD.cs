@@ -23,5 +23,20 @@ namespace TeknoLojistik.Web.DAL
             }
 
         }
+        public static int Sil(int Id)
+        {
+            try
+            {
+                TeknoLojistikContext ctx = new TeknoLojistikContext();
+                var sonuc = ctx.Personeller.Where(o => o.Id == Id).FirstOrDefault();
+                ctx.Personeller.Remove(sonuc);
+                return ctx.SaveChanges();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+
+        }
     }
 }
