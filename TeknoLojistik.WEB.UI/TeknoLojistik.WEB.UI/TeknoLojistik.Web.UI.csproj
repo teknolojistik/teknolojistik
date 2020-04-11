@@ -1918,7 +1918,7 @@
     <Content Include="lib\proj4js\projCode\utm.js" />
     <Content Include="lib\proj4js\projCode\vandg.js" />
     <Content Include="lib\proj4js\util\MGRS.js" />
-    <Content Include="Login.asmx" />
+    <Content Include="Services\Giris.asmx" />
     <Content Include="Pages\Login.aspx" />
     <Content Include="lib\crud.js" />
     <Content Include="Scripts\login.js" />
@@ -1933,8 +1933,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Login.asmx.cs">
-      <DependentUpon>Login.asmx</DependentUpon>
+    <Compile Include="Services\Giris.asmx.cs">
+      <DependentUpon>Giris.asmx</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Pages\Login.aspx.cs">
