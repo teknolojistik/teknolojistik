@@ -32,5 +32,20 @@ namespace TeknoLojistik.Web.BLL
                 throw;
             }
         }
+
+
+        public static int Guncelle(int Id)
+        {
+            try
+            {
+                return dalCRUD.Guncelle(Id);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+
     }
 }
