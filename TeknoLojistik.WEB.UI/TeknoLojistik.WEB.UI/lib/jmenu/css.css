@@ -1,0 +1,97 @@
+﻿.j-menu-body [class^='icon-'] {
+    font-size: 25px;
+    line-height: 45px;
+}
+
+.j-menu-body {
+    display: none;
+    position: absolute;
+    margin-top: 0;
+    margin-left: 0;
+    /*background: #34495e;*/
+    width: 300px;
+    float: left;
+    padding: 0;
+    border-radius: 10px;
+    border: 0px;
+    background-image: url(textures/highlight.png);
+    background-image: none, -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, .6)), to(rgba(255, 255, 255, 0)));
+    background-image: none, -webkit-linear-gradient(top, rgba(255, 255, 255, .6) 0, rgba(255, 255, 255, 0) 100%);
+    background-image: none, linear-gradient(to bottom, rgba(255, 255, 255, .6) 0, rgba(255, 255, 255, 0) 100%);
+    background-position: 50% 50%;
+    background-color: #eae8e8;
+}
+
+.j-menu-ctrl {
+    margin-bottom: 25px;
+}
+
+    .j-menu-ctrl:hover {
+        cursor: pointer;
+    }
+
+
+.j-menu-body > li {
+    display: block;
+    color: #fff;
+    float: left;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+    .j-menu-body > li > div {
+        margin-top: 10px;
+    }
+
+    .j-menu-body > li > a {
+        text-decoration: none;
+        color: #464646;
+        cursor: default;
+        /*background: #34495e;*/
+        height: 100%;
+        display: block;
+        width: 100%;
+        border-radius: 10px;
+        /*background-color: #eae8e8;*/
+    }
+
+        .j-menu-body > li > a:hover {
+            cursor: pointer;
+            border-color: #b6b6b6;
+            background-image: url(textures/highlight.png);
+            background-image: none, -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, .6)), to(rgba(255, 255, 255, 0)));
+            background-image: none, -webkit-linear-gradient(top, rgba(255, 255, 255, .6) 0, rgba(255, 255, 255, 0) 100%);
+            background-image: none, linear-gradient(to bottom, rgba(255, 255, 255, .6) 0, rgba(255, 255, 255, 0) 100%);
+            background-position: 50% 50%;
+            background-color: #bcb4b0;
+        }
+
+        .j-menu-body > li > a > div {
+            font-size: 24px;
+        }
+
+            .j-menu-body > li > a > div > div {
+                font-size: 14px;
+                line-height:1.4em;
+            }
+
+        .j-menu-body > li > a svg, .j-menu-body > li > a i {
+            margin: 10px 0;
+        }
+
+#jmenu .j-menu-body a {
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    /*background: #34495e;*/
+    display: block;
+}
+
+    #jmenu .j-menu-body a svg {
+    }
