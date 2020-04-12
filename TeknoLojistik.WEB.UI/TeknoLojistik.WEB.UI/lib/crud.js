@@ -34,19 +34,8 @@
     },
 
     Guncelle: function () {
-        //$.ajax({
-        //    url: "/CRUD.asmx/Guncelle",
-        //    data: { 2: "EDAGG" },
-        //    method: "post",
-        //    success: function (o) {
-        //        console.log(o);
-        //    },
-        //    error: function (o) {
-        //        console.log(o);
-        //    }
-        //})
 
-        var data = {Ad: "EDAGG"};
+        var data = { Ad: "EDAGG" };
 
         $.ajax({
             url: "/CRUD.asmx/Guncelle",

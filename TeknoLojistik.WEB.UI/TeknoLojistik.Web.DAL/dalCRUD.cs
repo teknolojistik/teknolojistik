@@ -9,11 +9,15 @@ namespace TeknoLojistik.Web.DAL
 {
     public class dalCRUD
     {
-        public static int Ekle(Personel p)
+        public static Personel Getir(int Id, TeknoLojistikContext ctx)
+        {
+            var sonuc = ctx.Personeller.Where(p => p.Id == Id).FirstOrDefault();
+            return sonuc;
+        }
+        public static int Ekle(Personel p, TeknoLojistikContext ctx)
         {
             try
             {
-                TeknoLojistikContext ctx = new TeknoLojistikContext();
                 ctx.Personeller.Add(p);
                 return ctx.SaveChanges();
             }
@@ -38,12 +42,8 @@ namespace TeknoLojistik.Web.DAL
             }
 
         }
-
-
         public static int Guncelle(int Id)
         {
-
-           
 
             try
             {
