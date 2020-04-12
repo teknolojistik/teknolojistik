@@ -20,7 +20,9 @@ namespace TeknoLojistik.WEB.UI
     // [System.Web.Script.Services.ScriptService]
     public class CRUD : System.Web.Services.WebService
     {
-
+        /// <summary>
+        /// Yeni kayıt ekleme işlemini başlatan servis metodudur.
+        /// </summary>
         [WebMethod]
         public int Ekle(Personel p)
         {
