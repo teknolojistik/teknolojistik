@@ -20,6 +20,7 @@ namespace TeknoLojistik.Web.DAL.DB
         public virtual DbSet<Talep> Talepler { get; set; }
         public virtual DbSet<Sehir> Sehirler { get; set; }
         public virtual DbSet<Ilce> Ilceler { get; set; }
+        public virtual DbSet<Kullanici> Kullanicilar { get; set; }
 
     }
 }

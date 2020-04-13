@@ -52,9 +52,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="dalCRUD.cs" />
+    <Compile Include="dalGiris.cs" />
     <Compile Include="DB\Arac.cs" />
     <Compile Include="DB\Firma.cs" />
     <Compile Include="DB\Ilce.cs" />
+    <Compile Include="DB\Kullanici.cs" />
     <Compile Include="DB\Personel.cs" />
     <Compile Include="DB\Sehir.cs" />
     <Compile Include="DB\Talep.cs" />
@@ -66,6 +68,14 @@
     <Compile Include="Migrations\202004062018141_SehirIlceTablo.cs" />
     <Compile Include="Migrations\202004062018141_SehirIlceTablo.designer.cs">
       <DependentUpon>202004062018141_SehirIlceTablo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004102016525_PersonelTablo.cs" />
+    <Compile Include="Migrations\202004102016525_PersonelTablo.designer.cs">
+      <DependentUpon>202004102016525_PersonelTablo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004112021583_KullaniciTablosuEklendi.cs" />
+    <Compile Include="Migrations\202004112021583_KullaniciTablosuEklendi.designer.cs">
+      <DependentUpon>202004112021583_KullaniciTablosuEklendi.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -80,6 +90,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202004062018141_SehirIlceTablo.resx">
       <DependentUpon>202004062018141_SehirIlceTablo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004102016525_PersonelTablo.resx">
+      <DependentUpon>202004102016525_PersonelTablo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004112021583_KullaniciTablosuEklendi.resx">
+      <DependentUpon>202004112021583_KullaniciTablosuEklendi.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

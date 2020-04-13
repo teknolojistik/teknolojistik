@@ -15,16 +15,30 @@ namespace TeknoLojistik.WEB.UI
     [WebService(Namespace = "http://tempuri.org/")]
     [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
     [System.ComponentModel.ToolboxItem(false)]
+    [System.Web.Script.Services.ScriptService()]
     // To allow this Web Service to be called from script, using ASP.NET AJAX, uncomment the following line. 
     // [System.Web.Script.Services.ScriptService]
     public class CRUD : System.Web.Services.WebService
     {
-
+        /// <summary>
+        /// Yeni kayıt ekleme işlemini başlatan servis metodudur.
+        /// </summary>
         [WebMethod]
         public int Ekle(Personel p)
         {
-            //Personel prs = JsonConvert.DeserializeObject<Personel>(p);
             return bllCRUD.Ekle(p);
         }
+
+        [WebMethod]
+        public int Sil(int Id)
+        {
+            return bllCRUD.Sil(Id);
+        }
+        [WebMethod]
+        public int Guncelle(int Id)
+        {
+            return bllCRUD.Guncelle(Id);
+        }
+
     }
 }
