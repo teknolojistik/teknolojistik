@@ -181,6 +181,10 @@ D:\Ossy Files\GitHub\teknolojistik\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojis
 D:\Ossy Files\GitHub\teknolojistik\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.WEB.UI\obj\Debug\TeknoLojistik.WEB.UI.pdb
 D:\Ossy Files\GitHub\teknolojistik\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.WEB.UI\bin\Newtonsoft.Json.dll
 D:\Ossy Files\GitHub\teknolojistik\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.WEB.UI\bin\Newtonsoft.Json.xml
+<<<<<<< HEAD
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.WEB.UI\bin\Newtonsoft.Json.dll
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.WEB.UI\bin\Newtonsoft.Json.xml
+=======
 D:\Ossy Files\GitHub\teknolojistik\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.WEB.UI\bin\EntityFramework.SqlServer.dll
 D:\Ossy Files\GitHub\teknolojistik\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.WEB.UI\bin\TeknoLojistik.Web.BLL.dll.config
 D:\Ossy Files\GitHub\teknolojistik\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.WEB.UI\bin\EntityFramework.SqlServer.xml
@@ -252,3 +256,4 @@ C:\Users\eda\Desktop\Tutanamayanlar\teknolojistik\TeknoLojistik.WEB.UI\TeknoLoji
 C:\Users\eda\Desktop\Tutanamayanlar\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.WEB.UI\obj\Debug\TeknoLojistik.Web.UI.csproj.CopyComplete
 C:\Users\eda\Desktop\Tutanamayanlar\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.WEB.UI\obj\Debug\TeknoLojistik.WEB.UI.dll
 C:\Users\eda\Desktop\Tutanamayanlar\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.WEB.UI\obj\Debug\TeknoLojistik.WEB.UI.pdb
+>>>>>>> ba41d8cf0f9503e1a8343d76c13f715565df6e51
