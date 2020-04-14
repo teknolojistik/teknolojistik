@@ -13,7 +13,7 @@ namespace TeknoLojistik.Web.DAL.DB
     public class Personel
     {
         public int Id { get; set; }
-
+        public int KullaniciTip { get; set; }
         [StringLength(11)]
         public string TCKimlikNo { get; set; }
 
