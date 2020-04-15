@@ -7,13 +7,13 @@ namespace TeknoLojistik.Web.DAL.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.0")]
-    public sealed partial class KullaniciTablosuEklendi : IMigrationMetadata
+    public sealed partial class KullanicilarTablosu : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(KullaniciTablosuEklendi));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(KullanicilarTablosu));
         
         string IMigrationMetadata.Id
         {
-            get { return "202004112021583_KullaniciTablosuEklendi"; }
+            get { return "202004151904212_KullanicilarTablosu"; }
         }
         
         string IMigrationMetadata.Source

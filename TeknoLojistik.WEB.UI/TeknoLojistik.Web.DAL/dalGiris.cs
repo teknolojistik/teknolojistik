@@ -9,7 +9,7 @@ namespace TeknoLojistik.Web.DAL
 {
     public class dalGiris
     {
-        public static bool OturumAc(Kullanici k)
+        public static Kullanici OturumAc(Kullanici k)
         {
             try
             {
@@ -17,11 +17,7 @@ namespace TeknoLojistik.Web.DAL
 
                 var sonuc = ctx.Kullanicilar.Where(o => o.KullaniciAd == k.KullaniciAd && o.Sifre == k.Sifre).FirstOrDefault();
 
-                if (sonuc != null)
-                    return true;
-
-                else
-                    return false;
+                return sonuc;
 
             }
             catch (Exception)

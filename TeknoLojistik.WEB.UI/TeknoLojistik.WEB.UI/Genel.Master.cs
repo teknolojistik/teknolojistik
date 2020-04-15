@@ -14,34 +14,34 @@ namespace TeknoLojistik.WEB.UI
             if (!IsPostBack)
             {
                 {
-                    if (!(Session["oturum"] != null && (Boolean)Session["oturum"] == true))
-                    {
-                        Response.Redirect("Login.aspx");
-                    }
+                    //if (!(Session["oturum"] != null && (Boolean)Session["oturum"] == true))
+                    //{
+                    //    Response.Redirect("Login.aspx");
+                    //}
 
 
 
-                    if ((int)Session["tip"] == 0)
-                    {
-                        Panel1.Visible = true;
-                        Panel2.Visible = false;
-                        lblTip.Text = "Personel Girişi";
+                    //if ((bool)Session["Admin"] == false)
+                    //{
+                    //    Panel1.Visible = true;
+                    //    Panel2.Visible = false;
+                    //    lblTip.Text = "Personel Girişi";
 
 
-                    }
+                    //}
 
-                    else if ((int)Session["tip"] == 1)
-                    {
-                        Panel1.Visible = false;
-                        Panel2.Visible = true;
+                    //else if ((bool)Session["Admin"])
+                    //{
+                    //    Panel1.Visible = false;
+                    //    Panel2.Visible = true;
 
-                        lblTip.Text = "Yönetici Girişi";
-                    }
+                    //    lblTip.Text = "Yönetici Girişi";
+                    //}
 
-                    else
-                    {
-                        Response.Redirect("Giris.aspx");
-                    }
+                    //else
+                    //{
+                    //    Response.Redirect("Giris.aspx");
+                    //}
                 }
             }
         }

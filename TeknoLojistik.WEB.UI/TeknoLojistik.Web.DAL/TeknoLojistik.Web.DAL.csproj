@@ -69,13 +69,9 @@
     <Compile Include="Migrations\202004062018141_SehirIlceTablo.designer.cs">
       <DependentUpon>202004062018141_SehirIlceTablo.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202004102016525_PersonelTablo.cs" />
-    <Compile Include="Migrations\202004102016525_PersonelTablo.designer.cs">
-      <DependentUpon>202004102016525_PersonelTablo.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202004112021583_KullaniciTablosuEklendi.cs" />
-    <Compile Include="Migrations\202004112021583_KullaniciTablosuEklendi.designer.cs">
-      <DependentUpon>202004112021583_KullaniciTablosuEklendi.cs</DependentUpon>
+    <Compile Include="Migrations\202004151904212_KullanicilarTablosu.cs" />
+    <Compile Include="Migrations\202004151904212_KullanicilarTablosu.designer.cs">
+      <DependentUpon>202004151904212_KullanicilarTablosu.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -91,11 +87,8 @@
     <EmbeddedResource Include="Migrations\202004062018141_SehirIlceTablo.resx">
       <DependentUpon>202004062018141_SehirIlceTablo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202004102016525_PersonelTablo.resx">
-      <DependentUpon>202004102016525_PersonelTablo.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202004112021583_KullaniciTablosuEklendi.resx">
-      <DependentUpon>202004112021583_KullaniciTablosuEklendi.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202004151904212_KullanicilarTablosu.resx">
+      <DependentUpon>202004151904212_KullanicilarTablosu.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

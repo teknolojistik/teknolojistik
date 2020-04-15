@@ -10,7 +10,7 @@ namespace TeknoLojistik.Web.BLL
 {
     public static class bllGiris
     {
-        public static bool OturumAc(Kullanici k)
+        public static Kullanici OturumAc(Kullanici k)
         {
             try
             {

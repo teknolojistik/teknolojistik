@@ -3,7 +3,7 @@
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class KullaniciTablosuEklendi : DbMigration
+    public partial class KullanicilarTablosu : DbMigration
     {
         public override void Up()
         {
@@ -12,6 +12,7 @@
                 c => new
                     {
                         Id = c.Int(nullable: false, identity: true),
+                        Admin = c.Boolean(nullable: false),
                         KullaniciAd = c.String(maxLength: 17),
                         Sifre = c.String(maxLength: 10),
                         PersonelId = c.Int(nullable: false),
@@ -25,6 +26,7 @@
         public override void Down()
         {
             DropTable("dbo.Kullanicilar");
+          
         }
     }
 }

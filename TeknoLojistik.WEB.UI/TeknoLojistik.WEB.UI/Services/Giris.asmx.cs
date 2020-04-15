@@ -21,7 +21,7 @@ namespace TeknoLojistik.WEB.UI
     {
 
         [WebMethod]
-        public bool OturumAc(Kullanici k)
+        public Kullanici OturumAc(Kullanici k)
         {
             return bllGiris.OturumAc(k);
         }
