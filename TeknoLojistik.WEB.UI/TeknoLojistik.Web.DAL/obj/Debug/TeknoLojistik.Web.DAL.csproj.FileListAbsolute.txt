@@ -60,3 +60,4 @@ C:\Users\eda\Desktop\Tutanamayanlar\teknolojistik\TeknoLojistik.WEB.UI\TeknoLoji
 C:\Users\eda\Desktop\Tutanamayanlar\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.DAL\obj\Debug\TeknoLojistik.Web.DAL.dll
 C:\Users\eda\Desktop\Tutanamayanlar\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.DAL\obj\Debug\TeknoLojistik.Web.DAL.pdb
 D:\Ossy Files\GitHub\teknolojistik\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.DAL\obj\Debug\TeknoLojistik.Web.DAL.Migrations.KullaniciTablosuEklendi.resources
+C:\Users\eda\Desktop\Tutanamayanlar\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.DAL\obj\Debug\TeknoLojistik.Web.DAL.Migrations.KullaniciTablosuEklendi.resources

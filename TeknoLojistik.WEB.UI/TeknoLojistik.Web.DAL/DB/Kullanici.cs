@@ -12,7 +12,7 @@ namespace TeknoLojistik.Web.DAL.DB
     public class Kullanici
     {
         public int Id { get; set; }
-
+        public int KullaniciTip { get; set; }
         [StringLength(17)]
         public string KullaniciAd { get; set; }
 

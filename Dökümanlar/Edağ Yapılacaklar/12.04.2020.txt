@@ -1,0 +1,2 @@
+-Master sayfası oluşturulacak.
+-Tüm sayfalarda ortak olan yapılar kurulacak(menü vs.).

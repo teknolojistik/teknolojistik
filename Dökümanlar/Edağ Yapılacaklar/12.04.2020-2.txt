@@ -1,0 +1,3 @@
+-2 adet ana sayfa yapılacak.
+-Birincisi admin girişi sonucu, diğeri personel girişi sonucu açılacak.
+-Login işlemi sonucu sayfaya yönlendirme ayarlanacak.
