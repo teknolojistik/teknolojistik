@@ -1,1 +1,0 @@
--Son yazdığımız kontrollü kodlara çalışılacak ve diğer işlemlerde gerekli kontroller için denemeler yapılacak.
