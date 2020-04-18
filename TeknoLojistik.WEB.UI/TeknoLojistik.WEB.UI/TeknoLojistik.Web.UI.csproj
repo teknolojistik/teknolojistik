@@ -78,80 +78,65 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CRUD.asmx" />
-    <Content Include="CRUD.html" />
-    <Content Include="Pages\Anasayfa.aspx" />
+    <Content Include="lib\css\bootstrap\bootstrap-grid.css" />
+    <Content Include="lib\css\bootstrap\bootstrap-grid.min.css" />
+    <Content Include="lib\css\bootstrap\bootstrap-reboot.css" />
+    <Content Include="lib\css\bootstrap\bootstrap-reboot.min.css" />
+    <Content Include="lib\css\bootstrap\bootstrap.css" />
+    <Content Include="lib\css\bootstrap\bootstrap.min.css" />
+    <Content Include="lib\css\bootstrap\simple-sidebar.css" />
+    <Content Include="lib\js\bootstrap\bootstrap.bundle.js" />
+    <Content Include="lib\js\bootstrap\bootstrap.bundle.min.js" />
+    <Content Include="lib\js\bootstrap\bootstrap.js" />
+    <Content Include="lib\js\bootstrap\bootstrap.min.js" />
+    <Content Include="lib\js\jquery\jquery.js" />
+    <Content Include="lib\js\jquery\jquery.min.js" />
+    <Content Include="lib\js\jquery\jquery.slim.js" />
+    <Content Include="lib\js\jquery\jquery.slim.min.js" />
+    <Content Include="Pages\Admin.aspx" />
+    <Content Include="Pages\Giris.aspx" />
+    <Content Include="Pages\Personel.aspx" />
     <Content Include="Scripts\genel.js" />
-    <Content Include="css\bootstrap-table.css" />
-    <Content Include="css\bootstrap-theme.css" />
-    <Content Include="css\bootstrap-theme.min.css" />
-    <Content Include="css\bootstrap.css" />
-    <Content Include="css\bootstrap.min.css" />
-    <Content Include="css\datepicker.css" />
-    <Content Include="css\datepicker3.css" />
-    <Content Include="css\font-awesome.min.css" />
-    <Content Include="css\genel.css" />
-    <Content Include="css\styles.css" />
-    <Content Include="deneme.aspx" />
-    <Content Include="js\bootstrap-datepicker.js" />
-    <Content Include="js\bootstrap.js" />
-    <Content Include="js\bootstrap.min.js" />
-    <Content Include="js\chart-data.js" />
-    <Content Include="js\chart.min.js" />
-    <Content Include="js\custom.js" />
-    <Content Include="js\easypiechart-data.js" />
-    <Content Include="js\easypiechart.js" />
-    <Content Include="js\html5shiv.min.js" />
-    <Content Include="js\jquery-1.11.1.min.js" />
-    <Content Include="js\lumino.glyphs.js" />
-    <Content Include="js\npm.js" />
-    <Content Include="js\respond.min.js" />
-    <Content Include="Pages\Login.aspx" />
-    <Content Include="Styles\Login.css" />
+    <Content Include="lib\css\genel.css" />
+    <Content Include="lib\css\styles.css" />
     <Content Include="Global.asax" />
     <Content Include="Services\Giris.asmx" />
-    <Content Include="Scripts\login.js" />
+    <Content Include="Scripts\giris.js" />
+    <Content Include="Styles\genel.css" />
+    <Content Include="Styles\giris.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CRUD.asmx.cs">
-      <DependentUpon>CRUD.asmx</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="Pages\Anasayfa.aspx.cs">
-      <DependentUpon>Anasayfa.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Pages\Anasayfa.aspx.designer.cs">
-      <DependentUpon>Anasayfa.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Sifreleme.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
-    <Compile Include="deneme.aspx.cs">
-      <DependentUpon>deneme.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="deneme.aspx.designer.cs">
-      <DependentUpon>deneme.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Genel.Master.cs">
+    <Compile Include="Pages\Genel.Master.cs">
       <DependentUpon>Genel.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Genel.Master.designer.cs">
+    <Compile Include="Pages\Genel.Master.designer.cs">
       <DependentUpon>Genel.Master</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Login.aspx.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
+    <Compile Include="Pages\Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\Login.aspx.designer.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
+    <Compile Include="Pages\Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Sifreleme.cs" />
-    <Compile Include="Global.asax.cs">
-      <DependentUpon>Global.asax</DependentUpon>
+    <Compile Include="Pages\Giris.aspx.cs">
+      <DependentUpon>Giris.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Giris.aspx.designer.cs">
+      <DependentUpon>Giris.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Personel.aspx.cs">
+      <DependentUpon>Personel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Personel.aspx.designer.cs">
+      <DependentUpon>Personel.aspx</DependentUpon>
     </Compile>
     <Compile Include="Services\Giris.asmx.cs">
       <DependentUpon>Giris.asmx</DependentUpon>
@@ -160,12 +145,21 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Genel.Master" />
-    <Content Include="css\bootstrap-theme.css.map" />
-    <Content Include="css\bootstrap-theme.min.css.map" />
-    <Content Include="css\bootstrap.css.map" />
-    <Content Include="css\bootstrap.min.css.map" />
+    <Content Include="Pages\Genel.Master" />
+    <Content Include="lib\js\bootstrap\bootstrap.bundle.js.map" />
+    <Content Include="lib\js\bootstrap\bootstrap.bundle.min.js.map" />
+    <Content Include="lib\js\bootstrap\bootstrap.js.map" />
+    <Content Include="lib\js\bootstrap\bootstrap.min.js.map" />
+    <Content Include="lib\js\jquery\jquery.min.map" />
+    <Content Include="lib\js\jquery\jquery.slim.min.map" />
+    <Content Include="lib\css\bootstrap\bootstrap-grid.css.map" />
+    <Content Include="lib\css\bootstrap\bootstrap-grid.min.css.map" />
+    <Content Include="lib\css\bootstrap\bootstrap-reboot.css.map" />
+    <Content Include="lib\css\bootstrap\bootstrap-reboot.min.css.map" />
+    <Content Include="lib\css\bootstrap\bootstrap.css.map" />
+    <Content Include="lib\css\bootstrap\bootstrap.min.css.map" />
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Web.ConnStr.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

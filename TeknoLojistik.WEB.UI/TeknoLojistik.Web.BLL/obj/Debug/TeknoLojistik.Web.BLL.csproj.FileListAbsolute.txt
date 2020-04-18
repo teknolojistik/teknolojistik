@@ -6,7 +6,6 @@ D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\bi
 D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\bin\Debug\TeknoLojistik.Web.DAL.dll.config
 D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\bin\Debug\EntityFramework.xml
 D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\obj\Debug\TeknoLojistik.Web.BLL.csprojAssemblyReference.cache
-D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\obj\Debug\TeknoLojistik.Web.BLL.csproj.CoreCompileInputs.cache
 D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\obj\Debug\TeknoLojistik.Web.BLL.csproj.CopyComplete
 D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\obj\Debug\TeknoLojistik.Web.BLL.dll
 D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\obj\Debug\TeknoLojistik.Web.BLL.pdb
@@ -39,3 +38,6 @@ C:\Users\eda\Desktop\Tutanamayanlar\teknolojistik\TeknoLojistik.WEB.UI\TeknoLoji
 C:\Users\eda\Desktop\Tutanamayanlar\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\obj\Debug\TeknoLojistik.Web.BLL.csproj.CopyComplete
 C:\Users\eda\Desktop\Tutanamayanlar\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\obj\Debug\TeknoLojistik.Web.BLL.dll
 C:\Users\eda\Desktop\Tutanamayanlar\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\obj\Debug\TeknoLojistik.Web.BLL.pdb
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\bin\Debug\TeknoLojistik.Web.BLL.dll.config
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\bin\Debug\EntityFramework.SqlServer.xml

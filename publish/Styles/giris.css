@@ -1,0 +1,40 @@
+﻿body {
+    background-color: darkgray;
+}
+
+#divGiris {
+    position: absolute;
+    background-color: lightgray;
+    height: 300px;
+    width: 500px;
+    top: 200px;
+    left: 35%;
+}
+
+.txt {
+    width: 250px;
+    height: 22px;
+}
+
+#divEposta {
+    position: absolute;
+    left: 20%;
+    top: 50px;
+}
+
+#divSifre {
+    position: absolute;
+    left: 20%;
+    top: 120px;
+}
+
+#divGirisYap {
+    position: absolute;
+    left: 40%;
+    top: 200px;
+}
+
+#btnGiris {
+    height: 40px;
+    width: 70px;
+}

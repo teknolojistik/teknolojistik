@@ -1,0 +1,14 @@
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\bin\Release\TeknoLojistik.Web.BLL.dll.config
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\bin\Release\TeknoLojistik.Web.BLL.dll
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\bin\Release\TeknoLojistik.Web.BLL.pdb
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\bin\Release\EntityFramework.dll
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\bin\Release\EntityFramework.SqlServer.dll
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\bin\Release\TeknoLojistik.Web.DAL.dll
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\bin\Release\TeknoLojistik.Web.DAL.pdb
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\bin\Release\TeknoLojistik.Web.DAL.dll.config
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\bin\Release\EntityFramework.xml
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\bin\Release\EntityFramework.SqlServer.xml
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\obj\Release\TeknoLojistik.Web.BLL.csprojAssemblyReference.cache
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\obj\Release\TeknoLojistik.Web.BLL.csproj.CopyComplete
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\obj\Release\TeknoLojistik.Web.BLL.dll
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.BLL\obj\Release\TeknoLojistik.Web.BLL.pdb

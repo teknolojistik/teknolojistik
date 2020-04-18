@@ -1,0 +1,15 @@
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.DAL\bin\Release\TeknoLojistik.Web.DAL.dll.config
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.DAL\bin\Release\TeknoLojistik.Web.DAL.dll
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.DAL\bin\Release\TeknoLojistik.Web.DAL.pdb
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.DAL\bin\Release\EntityFramework.dll
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.DAL\bin\Release\EntityFramework.SqlServer.dll
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.DAL\bin\Release\EntityFramework.xml
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.DAL\bin\Release\EntityFramework.SqlServer.xml
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.DAL\obj\Release\TeknoLojistik.Web.DAL.csprojAssemblyReference.cache
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.DAL\obj\Release\TeknoLojistik.Web.DAL.Migrations.IlkMigration.resources
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.DAL\obj\Release\TeknoLojistik.Web.DAL.Migrations.SehirIlceTablo.resources
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.DAL\obj\Release\TeknoLojistik.Web.DAL.Migrations.KullanicilarTablosu.resources
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.DAL\obj\Release\TeknoLojistik.Web.DAL.csproj.GenerateResource.cache
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.DAL\obj\Release\TeknoLojistik.Web.DAL.csproj.CopyComplete
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.DAL\obj\Release\TeknoLojistik.Web.DAL.dll
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.DAL\obj\Release\TeknoLojistik.Web.DAL.pdb
