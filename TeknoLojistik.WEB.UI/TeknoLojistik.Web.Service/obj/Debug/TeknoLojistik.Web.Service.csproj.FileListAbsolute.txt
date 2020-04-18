@@ -4,3 +4,14 @@ C:\Users\eda\Desktop\Tutanamayanlar\teknolojistik\TeknoLojistik.WEB.UI\TeknoLoji
 C:\Users\eda\Desktop\Tutanamayanlar\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.Service\obj\Debug\TeknoLojistik.Web.Service.csproj.CoreCompileInputs.cache
 C:\Users\eda\Desktop\Tutanamayanlar\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.Service\obj\Debug\TeknoLojistik.Web.Service.dll
 C:\Users\eda\Desktop\Tutanamayanlar\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.Service\obj\Debug\TeknoLojistik.Web.Service.pdb
+D:\Ossy Files\GitHub\teknolojistik\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.Service\bin\Debug\TeknoLojistik.Web.Service.dll.config
+D:\Ossy Files\GitHub\teknolojistik\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.Service\bin\Debug\TeknoLojistik.Web.Service.dll
+D:\Ossy Files\GitHub\teknolojistik\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.Service\bin\Debug\TeknoLojistik.Web.Service.pdb
+D:\Ossy Files\GitHub\teknolojistik\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.Service\bin\Debug\EntityFramework.dll
+D:\Ossy Files\GitHub\teknolojistik\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.Service\bin\Debug\EntityFramework.SqlServer.dll
+D:\Ossy Files\GitHub\teknolojistik\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.Service\bin\Debug\EntityFramework.xml
+D:\Ossy Files\GitHub\teknolojistik\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.Service\bin\Debug\EntityFramework.SqlServer.xml
+D:\Ossy Files\GitHub\teknolojistik\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.Service\obj\Debug\TeknoLojistik.Web.Service.csprojAssemblyReference.cache
+D:\Ossy Files\GitHub\teknolojistik\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.Service\obj\Debug\TeknoLojistik.Web.Service.csproj.CopyComplete
+D:\Ossy Files\GitHub\teknolojistik\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.Service\obj\Debug\TeknoLojistik.Web.Service.dll
+D:\Ossy Files\GitHub\teknolojistik\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.Service\obj\Debug\TeknoLojistik.Web.Service.pdb

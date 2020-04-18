@@ -6,8 +6,6 @@
 
     OturumAc: function () {
 
-
-
         $("#btnGiris").click(function () {
             var kullaniciad = $("#txtKullaniciAd").val();
             var sifre = $("#txtSifre").val();
@@ -27,7 +25,13 @@
                 contentType: "application/json; charset=utf-8",
                 dataType: "json",
                 success: function (o) {
-                    console.log(o);
+                    if (o.d)
+                        Genel.Admin = 1;
+
+                    else
+                        Genel.Admin = 0;
+
+                    window.location.href = "/pages/anasayfa.aspx";
                 },
                 error: function (o) {
                     console.log(o);

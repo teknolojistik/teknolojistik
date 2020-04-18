@@ -8,6 +8,7 @@
 
 </head>
 <body>
+    <script src="../Scripts/genel.js"></script>
     <script src="../Scripts/login.js"></script>
 
     <link href="../Styles/Login.css" rel="stylesheet" />

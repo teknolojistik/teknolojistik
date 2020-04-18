@@ -80,6 +80,8 @@
   <ItemGroup>
     <Content Include="CRUD.asmx" />
     <Content Include="CRUD.html" />
+    <Content Include="Pages\Anasayfa.aspx" />
+    <Content Include="Scripts\genel.js" />
     <Content Include="Styles\Login.css" />
     <Content Include="Global.asax" />
     <Content Include="lib\bootstrap\bootstrap.js" />
@@ -1928,6 +1930,13 @@
     <Compile Include="CRUD.asmx.cs">
       <DependentUpon>CRUD.asmx</DependentUpon>
       <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Pages\Anasayfa.aspx.cs">
+      <DependentUpon>Anasayfa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Anasayfa.aspx.designer.cs">
+      <DependentUpon>Anasayfa.aspx</DependentUpon>
     </Compile>
     <Compile Include="Sifreleme.cs" />
     <Compile Include="Global.asax.cs">
