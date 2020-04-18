@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\Ossy Files\GitHub\teknolojistik\publish</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>04/18/2020 16:02:20</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>04/18/2020 16:02:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>04/18/2020 16:02:21</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>04/18/2020 16:02:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>04/18/2020 16:02:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>04/18/2020 16:02:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>04/18/2020 16:02:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>04/18/2020 16:02:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>04/18/2020 16:02:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>04/18/2020 16:02:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>04/18/2020 16:02:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>04/18/2020 16:02:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>04/18/2020 16:02:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>04/18/2020 16:02:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>04/18/2020 16:02:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>04/18/2020 16:02:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>04/18/2020 16:02:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>04/18/2020 16:02:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>04/18/2020 16:02:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>04/18/2020 16:02:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>04/18/2020 16:02:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>04/18/2020 16:02:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>04/18/2020 16:02:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>04/18/2020 16:02:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>04/18/2020 16:02:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>04/18/2020 16:02:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>04/18/2020 16:02:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>04/18/2020 16:02:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>04/18/2020 16:02:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.AccessControl.dll">
+      <publishTime>04/18/2020 16:02:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.dll">
+      <publishTime>04/18/2020 16:02:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>04/18/2020 16:02:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.AccessControl.dll">
+      <publishTime>04/18/2020 16:02:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Claims.dll">
+      <publishTime>04/18/2020 16:02:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>04/18/2020 16:02:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>04/18/2020 16:02:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>04/18/2020 16:02:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>04/18/2020 16:02:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
+      <publishTime>04/18/2020 16:02:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>04/18/2020 16:02:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>04/18/2020 16:02:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>04/18/2020 16:02:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>04/18/2020 16:02:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>04/18/2020 16:02:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>04/18/2020 16:02:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>04/18/2020 16:02:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>04/18/2020 16:02:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>04/18/2020 16:02:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>04/18/2020 16:02:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>04/18/2020 16:02:23</publishTime>
+    </File>
+    <File Include="bin/TeknoLojistik.Web.BLL.dll">
+      <publishTime>04/18/2020 21:47:30</publishTime>
+    </File>
+    <File Include="bin/TeknoLojistik.Web.BLL.dll.config">
+      <publishTime>04/18/2020 16:02:18</publishTime>
+    </File>
+    <File Include="bin/TeknoLojistik.Web.BLL.pdb">
+      <publishTime>04/18/2020 21:47:30</publishTime>
+    </File>
+    <File Include="bin/TeknoLojistik.Web.DAL.dll">
+      <publishTime>04/18/2020 21:47:30</publishTime>
+    </File>
+    <File Include="bin/TeknoLojistik.Web.DAL.dll.config">
+      <publishTime>04/18/2020 16:02:19</publishTime>
+    </File>
+    <File Include="bin/TeknoLojistik.Web.DAL.pdb">
+      <publishTime>04/18/2020 21:47:30</publishTime>
+    </File>
+    <File Include="bin/TeknoLojistik.WEB.UI.dll">
+      <publishTime>04/18/2020 21:47:30</publishTime>
+    </File>
+    <File Include="bin/TeknoLojistik.WEB.UI.pdb">
+      <publishTime>04/18/2020 21:47:30</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>04/18/2020 16:33:54</publishTime>
+    </File>
+    <File Include="lib/css/bootstrap-table.css">
+      <publishTime>04/18/2020 16:33:54</publishTime>
+    </File>
+    <File Include="lib/css/bootstrap-theme.css">
+      <publishTime>04/18/2020 16:33:54</publishTime>
+    </File>
+    <File Include="lib/css/bootstrap-theme.css.map">
+      <publishTime>04/18/2020 16:33:54</publishTime>
+    </File>
+    <File Include="lib/css/bootstrap-theme.min.css">
+      <publishTime>04/18/2020 16:33:54</publishTime>
+    </File>
+    <File Include="lib/css/bootstrap-theme.min.css.map">
+      <publishTime>04/18/2020 16:33:54</publishTime>
+    </File>
+    <File Include="lib/css/bootstrap.css">
+      <publishTime>04/18/2020 16:33:54</publishTime>
+    </File>
+    <File Include="lib/css/bootstrap.css.map">
+      <publishTime>04/18/2020 16:33:54</publishTime>
+    </File>
+    <File Include="lib/css/bootstrap.min.css">
+      <publishTime>04/18/2020 16:33:54</publishTime>
+    </File>
+    <File Include="lib/css/bootstrap.min.css.map">
+      <publishTime>04/18/2020 16:33:54</publishTime>
+    </File>
+    <File Include="lib/css/datepicker.css">
+      <publishTime>04/18/2020 16:33:54</publishTime>
+    </File>
+    <File Include="lib/css/datepicker3.css">
+      <publishTime>04/18/2020 16:33:54</publishTime>
+    </File>
+    <File Include="lib/css/font-awesome.min.css">
+      <publishTime>04/18/2020 16:33:54</publishTime>
+    </File>
+    <File Include="lib/css/genel.css">
+      <publishTime>04/18/2020 16:33:54</publishTime>
+    </File>
+    <File Include="lib/css/styles.css">
+      <publishTime>04/18/2020 16:33:54</publishTime>
+    </File>
+    <File Include="lib/js/bootstrap-datepicker.js">
+      <publishTime>04/18/2020 16:33:54</publishTime>
+    </File>
+    <File Include="lib/js/bootstrap.js">
+      <publishTime>04/18/2020 16:33:54</publishTime>
+    </File>
+    <File Include="lib/js/bootstrap.min.js">
+      <publishTime>04/18/2020 16:33:54</publishTime>
+    </File>
+    <File Include="lib/js/chart-data.js">
+      <publishTime>04/18/2020 16:33:54</publishTime>
+    </File>
+    <File Include="lib/js/chart.min.js">
+      <publishTime>04/18/2020 16:33:54</publishTime>
+    </File>
+    <File Include="lib/js/custom.js">
+      <publishTime>04/18/2020 16:33:54</publishTime>
+    </File>
+    <File Include="lib/js/easypiechart-data.js">
+      <publishTime>04/18/2020 16:33:54</publishTime>
+    </File>
+    <File Include="lib/js/easypiechart.js">
+      <publishTime>04/18/2020 16:33:54</publishTime>
+    </File>
+    <File Include="lib/js/html5shiv.min.js">
+      <publishTime>04/18/2020 16:33:54</publishTime>
+    </File>
+    <File Include="lib/js/jquery-1.11.1.min.js">
+      <publishTime>04/18/2020 16:33:54</publishTime>
+    </File>
+    <File Include="lib/js/jquery.js">
+      <publishTime>04/18/2020 16:59:23</publishTime>
+    </File>
+    <File Include="lib/js/lumino.glyphs.js">
+      <publishTime>04/18/2020 16:33:54</publishTime>
+    </File>
+    <File Include="lib/js/npm.js">
+      <publishTime>04/18/2020 16:33:54</publishTime>
+    </File>
+    <File Include="lib/js/respond.min.js">
+      <publishTime>04/18/2020 16:33:54</publishTime>
+    </File>
+    <File Include="Pages/Admin.aspx">
+      <publishTime>04/18/2020 21:35:34</publishTime>
+    </File>
+    <File Include="Pages/Genel.Master">
+      <publishTime>04/18/2020 21:36:03</publishTime>
+    </File>
+    <File Include="Pages/Giris.aspx">
+      <publishTime>04/18/2020 17:01:23</publishTime>
+    </File>
+    <File Include="Pages/Personel.aspx">
+      <publishTime>04/18/2020 21:29:18</publishTime>
+    </File>
+    <File Include="Scripts/genel.js">
+      <publishTime>04/18/2020 16:02:16</publishTime>
+    </File>
+    <File Include="Scripts/giris.js">
+      <publishTime>04/18/2020 17:18:23</publishTime>
+    </File>
+    <File Include="Services/Giris.asmx">
+      <publishTime>04/18/2020 16:02:16</publishTime>
+    </File>
+    <File Include="Styles/genel.css">
+      <publishTime>04/18/2020 21:35:14</publishTime>
+    </File>
+    <File Include="Styles/giris.css">
+      <publishTime>04/18/2020 16:53:55</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/18/2020 21:47:31</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
