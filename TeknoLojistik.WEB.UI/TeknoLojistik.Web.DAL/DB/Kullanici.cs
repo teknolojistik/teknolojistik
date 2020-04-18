@@ -12,10 +12,9 @@ namespace TeknoLojistik.Web.DAL.DB
     public class Kullanici
     {
         public int Id { get; set; }
-
+        public bool Admin { get; set; }
         [StringLength(17)]
         public string KullaniciAd { get; set; }
-
         [StringLength(10)]
         public string Sifre { get; set; }
         public int PersonelId { get; set; }

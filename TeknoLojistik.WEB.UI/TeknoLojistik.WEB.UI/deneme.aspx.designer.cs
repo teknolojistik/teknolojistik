@@ -7,9 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TeknoLojistik.WEB.UI.Pages {
+namespace TeknoLojistik.WEB.UI {
     
     
-    public partial class Login {
+    public partial class deneme {
     }
 }

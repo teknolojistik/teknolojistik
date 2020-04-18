@@ -1,4 +1,4 @@
-﻿<%--<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="TeknoLojistik.Web.UI.Pages.Login" %>--%>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="TeknoLojistik.WEB.UI.Pages.Login" %>
 
 <!DOCTYPE html>
 
@@ -52,3 +52,4 @@
     })
 </script>
 </html>
+

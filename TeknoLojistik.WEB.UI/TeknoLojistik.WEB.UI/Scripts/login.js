@@ -32,6 +32,11 @@
                         Genel.Admin = 0;
 
                     window.location.href = "/pages/anasayfa.aspx";
+                    var sonuc = o.d;
+                    if (sonuc.Admin) {
+
+                        window.location = "/deneme.aspx";
+                    }
                 },
                 error: function (o) {
                     console.log(o);
