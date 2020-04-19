@@ -93,9 +93,11 @@
     <Content Include="lib\js\jquery\jquery.min.js" />
     <Content Include="lib\js\jquery\jquery.slim.js" />
     <Content Include="lib\js\jquery\jquery.slim.min.js" />
-    <Content Include="Pages\Admin.aspx" />
+    <Content Include="Pages\Anasayfa\Admin.aspx" />
     <Content Include="Pages\Giris.aspx" />
-    <Content Include="Pages\Personel.aspx" />
+    <Content Include="Pages\Admin\Muhasebe.aspx" />
+    <Content Include="Pages\Anasayfa\Personel.aspx" />
+    <Content Include="Pages\Personel\Nakliye.aspx" />
     <Content Include="Scripts\genel.js" />
     <Content Include="lib\css\genel.css" />
     <Content Include="lib\css\styles.css" />
@@ -110,18 +112,25 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Genel.Master.cs">
+    <Compile Include="Pages\Master\Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Master\Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Master\Genel.Master.cs">
       <DependentUpon>Genel.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\Genel.Master.designer.cs">
+    <Compile Include="Pages\Master\Genel.Master.designer.cs">
       <DependentUpon>Genel.Master</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Admin.aspx.cs">
+    <Compile Include="Pages\Anasayfa\Admin.aspx.cs">
       <DependentUpon>Admin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\Admin.aspx.designer.cs">
+    <Compile Include="Pages\Anasayfa\Admin.aspx.designer.cs">
       <DependentUpon>Admin.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\Giris.aspx.cs">
@@ -131,12 +140,33 @@
     <Compile Include="Pages\Giris.aspx.designer.cs">
       <DependentUpon>Giris.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Personel.aspx.cs">
+    <Compile Include="Pages\Admin\Muhasebe.aspx.cs">
+      <DependentUpon>Muhasebe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Admin\Muhasebe.aspx.designer.cs">
+      <DependentUpon>Muhasebe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Master\Personel.Master.cs">
+      <DependentUpon>Personel.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Master\Personel.Master.designer.cs">
+      <DependentUpon>Personel.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Anasayfa\Personel.aspx.cs">
       <DependentUpon>Personel.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\Personel.aspx.designer.cs">
+    <Compile Include="Pages\Anasayfa\Personel.aspx.designer.cs">
       <DependentUpon>Personel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Personel\Nakliye.aspx.cs">
+      <DependentUpon>Nakliye.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Personel\Nakliye.aspx.designer.cs">
+      <DependentUpon>Nakliye.aspx</DependentUpon>
     </Compile>
     <Compile Include="Services\Giris.asmx.cs">
       <DependentUpon>Giris.asmx</DependentUpon>
@@ -145,7 +175,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Pages\Genel.Master" />
+    <Content Include="Pages\Master\Genel.Master" />
     <Content Include="lib\js\bootstrap\bootstrap.bundle.js.map" />
     <Content Include="lib\js\bootstrap\bootstrap.bundle.min.js.map" />
     <Content Include="lib\js\bootstrap\bootstrap.js.map" />
@@ -159,6 +189,8 @@
     <Content Include="lib\css\bootstrap\bootstrap.css.map" />
     <Content Include="lib\css\bootstrap\bootstrap.min.css.map" />
     <None Include="packages.config" />
+    <Content Include="Pages\Master\Admin.Master" />
+    <Content Include="Pages\Master\Personel.Master" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Web.ConnStr.config" />
     <None Include="Web.Debug.config">
@@ -178,6 +210,7 @@
       <Name>TeknoLojistik.Web.DAL</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

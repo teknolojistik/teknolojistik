@@ -33,10 +33,10 @@
 
                     if (sonuc != null) {
                         if (sonuc.Admin)
-                            window.location.href = "/Pages/Admin.aspx";
+                            window.location.href = "/Pages/Anasayfa/Admin.aspx";
 
                         else
-                            window.location.href = "/Pages/Personel.aspx";
+                            window.location.href = "/Pages/Anasayfa//Personel.aspx";
                     }
                     else {
                         alert("Kullanıcı adı veya şifre hatalı!");
