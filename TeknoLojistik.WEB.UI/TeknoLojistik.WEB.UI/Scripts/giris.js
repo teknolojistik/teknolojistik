@@ -36,7 +36,7 @@
                             window.location.href = "/Pages/Anasayfa/Admin.aspx";
 
                         else
-                            window.location.href = "/Pages/Anasayfa//Personel.aspx";
+                            window.location.href = "/Pages/Anasayfa/Personel.aspx";
                     }
                     else {
                         alert("Kullanıcı adı veya şifre hatalı!");
