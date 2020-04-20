@@ -7,10 +7,13 @@
     <title></title>
     <link href="../Styles/giris.css" rel="stylesheet" />
     <script src="../lib/js/jquery/jquery.min.js"></script>
+     <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2020.1.406/styles/kendo.default-v2.min.css" />
+    <script src="https://kendo.cdn.telerik.com/2020.1.406/js/jszip.min.js"></script>
+    <script src="https://kendo.cdn.telerik.com/2020.1.406/js/kendo.all.min.js"></script>
     <script src="../Scripts/giris.js"></script>
 </head>
 <body>
-    <div id="divGiris">
+    <div id="window">
         <div id="divEposta">
             <label>E-Posta</label>
             <br />
@@ -25,6 +28,7 @@
             <button type="submit" id="btnGiris">Giriş Yap</button>
         </div>
     </div>
+
 
     <script>
         $(document).ready(function () {

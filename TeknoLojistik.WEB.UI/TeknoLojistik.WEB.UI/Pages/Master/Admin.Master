@@ -9,6 +9,11 @@
     </asp:ContentPlaceHolder>
     <link href="../../lib/css/bootstrap/bootstrap.min.css" rel="stylesheet" />
     <link href="../../lib/css/bootstrap/simple-sidebar.css" rel="stylesheet" />
+
+    <%-- Kendo kütüphaneleri --%>
+    <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2020.1.406/styles/kendo.default-v2.min.css" />
+    <script src="https://kendo.cdn.telerik.com/2020.1.406/js/jszip.min.js"></script>
+    <script src="https://kendo.cdn.telerik.com/2020.1.406/js/kendo.all.min.js"></script>
 </head>
 <body>
     <div class="d-flex" id="wrapper">
