@@ -9,6 +9,8 @@
         <div class="list-group list-group-flush">
             <a href="#" class="list-group-item list-group-item-action bg-light">Araçlar</a>
             <a href="#" class="list-group-item list-group-item-action bg-light">Firmalar</a>
+            <a href="#" class="list-group-item list-group-item-action bg-light">Personel</a>
+            <a href="#" class="list-group-item list-group-item-action bg-light">Şoför</a>
         </div>
     </div>
 </asp:Content>
