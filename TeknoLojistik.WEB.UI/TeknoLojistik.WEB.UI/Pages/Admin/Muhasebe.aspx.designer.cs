@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TeknoLojistik.WEB.UI.Pages
+namespace TeknoLojistik.WEB.UI.Pages.Admin
 {
 
 
-    public partial class Admin
+    public partial class Muhasebe
     {
     }
 }
