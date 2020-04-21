@@ -6,6 +6,30 @@
 
     OturumAc: function () {
 
+
+        $("#window").kendoWindow(
+            {
+                title: "GİRİŞ",
+                height:400,
+                width: 900,
+                modal: true,
+                color: "pink",
+                
+                animation: {
+                    open: {
+                        effects: "fade:in"
+                    }
+                },
+                
+                    close: {
+                        duration: 2000
+                    },
+                   
+                
+visible: false
+           }).data("kendoWindow").center().open();
+
+
         $("#btnGiris").click(function () {
             var kullaniciad = $("#txtEposta").val();
             var sifre = $("#txtSifre").val();
