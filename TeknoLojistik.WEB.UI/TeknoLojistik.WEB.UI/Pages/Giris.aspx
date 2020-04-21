@@ -7,25 +7,28 @@
     <title></title>
     <link href="../Styles/giris.css" rel="stylesheet" />
     <script src="../lib/js/jquery/jquery.min.js"></script>
-     <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2020.1.406/styles/kendo.default-v2.min.css" />
+    <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2020.1.406/styles/kendo.default-v2.min.css" />
     <script src="https://kendo.cdn.telerik.com/2020.1.406/js/jszip.min.js"></script>
     <script src="https://kendo.cdn.telerik.com/2020.1.406/js/kendo.all.min.js"></script>
     <script src="../Scripts/giris.js"></script>
 </head>
 <body>
     <div id="window">
-        <div id="divEposta">
-            <label>E-Posta</label>
+        <div id="divKullaniciAd">
+            <label>Kullanıcı Ad</label>
             <br />
-            <input type="text" id="txtEposta" class="txt" />
+            <input type="text" id="txtKullanici" class="k-textbox" placeholder="Kullanıcı adınızı giriniz"/>
         </div>
         <div id="divSifre">
             <label>Şifre</label>
             <br />
-            <input type="password" id="txtSifre" class="txt" />
+            <input type="password" id="txtSifre" class="k-textbox" placeholder="Şifrenizi giriniz"/>
         </div>
         <div id="divGirisYap">
-            <button type="submit" id="btnGiris">Giriş Yap</button>
+            <button type="submit" id="btnGiris" class="k-button">Giriş Yap</button>
+        </div>
+        <div id="Baslik">
+            <h1>TeknoLojistik</h1>
         </div>
     </div>
 

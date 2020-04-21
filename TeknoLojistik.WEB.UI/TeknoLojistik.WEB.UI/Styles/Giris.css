@@ -11,30 +11,58 @@
     left: 35%;
 }
 
-.txt {
+#txtKullanici {
     width: 250px;
-    height: 22px;
+    height: 25px;
+    border: solid 1px;
+    border-radius: 10px;
 }
 
-#divEposta {
+#txtSifre {
+    width: 250px;
+    height: 25px;
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+#divKullaniciAd {
     position: absolute;
-    left: 20%;
-    top: 50px;
+    left: 17%;
+    top: 80px;
 }
 
 #divSifre {
     position: absolute;
-    left: 20%;
-    top: 120px;
+    left: 17%;
+    top: 150px;
 }
 
 #divGirisYap {
     position: absolute;
-    left: 40%;
-    top: 200px;
+    right: 19%;
+    top: 230px;
 }
 
 #btnGiris {
     height: 40px;
     width: 70px;
+    border-radius: 10px;
+}
+
+
+#Baslik {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    left: 28%;
+    top: 0px;
+}
+
+.k-window-action {
+    visibility: hidden;
+}
+
+.k-dialog.k-alert .k-dialog-titlebar {
+    background-color: #333;
+    color: #eee;
 }
