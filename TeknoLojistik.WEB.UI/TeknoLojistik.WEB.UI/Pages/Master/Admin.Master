@@ -9,7 +9,8 @@
     </asp:ContentPlaceHolder>
     <link href="../../lib/css/bootstrap/bootstrap.min.css" rel="stylesheet" />
     <link href="../../lib/css/bootstrap/simple-sidebar.css" rel="stylesheet" />
-
+    <script src="../../lib/js/jquery/jquery.min.js"></script>
+    <script src="../../lib/js/bootstrap/bootstrap.bundle.min.js"></script>
     <%-- Kendo kütüphaneleri --%>
     <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2020.1.406/styles/kendo.default-v2.min.css" />
     <script src="https://kendo.cdn.telerik.com/2020.1.406/js/jszip.min.js"></script>
@@ -70,8 +71,7 @@
         </asp:ContentPlaceHolder>
 
     </div>
-    <script src="../../lib/js/jquery/jquery.min.js"></script>
-    <script src="../../lib/js/bootstrap/bootstrap.bundle.min.js"></script>
+    
     <script>
         $("#menu-toggle").click(function (e) {
             e.preventDefault();

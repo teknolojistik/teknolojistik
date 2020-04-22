@@ -104,6 +104,8 @@
     <Content Include="lib\css\genel.css" />
     <Content Include="lib\css\styles.css" />
     <Content Include="Global.asax" />
+    <Content Include="Scripts\muhasebe.js" />
+    <Content Include="Services\Genel.asmx" />
     <Content Include="Services\Giris.asmx" />
     <Content Include="Scripts\giris.js" />
     <Content Include="Styles\genel.css" />
@@ -169,6 +171,10 @@
     </Compile>
     <Compile Include="Pages\Personel\Nakliye.aspx.designer.cs">
       <DependentUpon>Nakliye.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Services\Genel.asmx.cs">
+      <DependentUpon>Genel.asmx</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="Services\Giris.asmx.cs">
       <DependentUpon>Giris.asmx</DependentUpon>

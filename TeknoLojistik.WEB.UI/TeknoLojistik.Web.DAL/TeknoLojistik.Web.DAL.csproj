@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="dalCRUD.cs" />
+    <Compile Include="dalGenel.cs" />
     <Compile Include="dalGiris.cs" />
     <Compile Include="DB\Arac.cs" />
     <Compile Include="DB\Firma.cs" />
@@ -73,6 +74,18 @@
     <Compile Include="Migrations\202004151904212_KullanicilarTablosu.designer.cs">
       <DependentUpon>202004151904212_KullanicilarTablosu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202004221944385_AracPlakaUzunluk.cs" />
+    <Compile Include="Migrations\202004221944385_AracPlakaUzunluk.designer.cs">
+      <DependentUpon>202004221944385_AracPlakaUzunluk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004222048439_SehirlerAdDuzenleme.cs" />
+    <Compile Include="Migrations\202004222048439_SehirlerAdDuzenleme.designer.cs">
+      <DependentUpon>202004222048439_SehirlerAdDuzenleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004222141274_IlceAdDuzenleme.cs" />
+    <Compile Include="Migrations\202004222141274_IlceAdDuzenleme.designer.cs">
+      <DependentUpon>202004222141274_IlceAdDuzenleme.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -89,6 +102,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202004151904212_KullanicilarTablosu.resx">
       <DependentUpon>202004151904212_KullanicilarTablosu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004221944385_AracPlakaUzunluk.resx">
+      <DependentUpon>202004221944385_AracPlakaUzunluk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004222048439_SehirlerAdDuzenleme.resx">
+      <DependentUpon>202004222048439_SehirlerAdDuzenleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004222141274_IlceAdDuzenleme.resx">
+      <DependentUpon>202004222141274_IlceAdDuzenleme.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
