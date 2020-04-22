@@ -13,12 +13,20 @@
 </asp:Content>
 
 <asp:Content ID="Content" ContentPlaceHolderID="Content" runat="server">
-    <script src="../../lib/js/jquery/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2020.1.406/styles/kendo.default-v2.min.css" />
-    <script src="https://kendo.cdn.telerik.com/2020.1.406/js/jszip.min.js"></script>
-    <script src="https://kendo.cdn.telerik.com/2020.1.406/js/kendo.all.min.js"></script>
 
-    <div id="grid"></div>
-    <div id="window"></div>
+    <script src="../../Scripts/muhasebe.js"></script>
+
+    <div>
+        <input id="il" />
+    </div>
+    <br />
+    <div>
+        <input id="ilce" />
+    </div>
+    <script>
+        $(document).ready(function () {
+            Muhasebe.Setup();
+        });
+    </script>
 
 </asp:Content>
