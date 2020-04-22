@@ -21,10 +21,12 @@
                 close: {
                     duration: 2000
                 },
-                visible: false
+                visible: false,
+                zIndex: 99
             }).data("kendoWindow").center().open();
 
         $("#btnGiris").click(function () {
+            $("#yukleniyor").show();
             var kullaniciad = $("#txtKullanici").val();
             var sifre = $("#txtSifre").val();
             var kullanici = {
@@ -32,8 +34,10 @@
                 Sifre: sifre
             }
 
-            if (kullanici.KullaniciAd == '' || kullanici.Sifre == '')
+            if (kullanici.KullaniciAd == '' || kullanici.Sifre == '') {
+                $("#yukleniyor").hide();
                 return kendo.alert("Boşlukları doldurun!");
+            }
 
             Giris(kullanici);
         })
@@ -48,7 +52,7 @@
                 success: function (o) {
                     console.log("Giris metodu successe girdi.");
                     var sonuc = o.d;
-
+                    $("#yukleniyor").hide();
                     if (sonuc != null) {
                         if (sonuc.Admin)
                             window.location.href = "/Pages/Anasayfa/Admin.aspx";
