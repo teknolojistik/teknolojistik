@@ -78,6 +78,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Gorseller\yukleniyor.gif" />
     <Content Include="Gorseller\giris.png" />
     <Content Include="lib\css\bootstrap\bootstrap-grid.css" />
     <Content Include="lib\css\bootstrap\bootstrap-grid.min.css" />

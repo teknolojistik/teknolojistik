@@ -17,12 +17,12 @@
         <div id="divKullaniciAd">
             <label>Kullanıcı Ad</label>
             <br />
-            <input type="text" id="txtKullanici" class="k-textbox" placeholder="Kullanıcı adınızı giriniz"/>
+            <input type="text" id="txtKullanici" class="k-textbox" placeholder="Kullanıcı adınızı giriniz" />
         </div>
         <div id="divSifre">
             <label>Şifre</label>
             <br />
-            <input type="password" id="txtSifre" class="k-textbox" placeholder="Şifrenizi giriniz"/>
+            <input type="password" id="txtSifre" class="k-textbox" placeholder="Şifrenizi giriniz" />
         </div>
         <div id="divGirisYap">
             <button type="submit" id="btnGiris" class="k-button">Giriş Yap</button>
@@ -32,6 +32,10 @@
         </div>
     </div>
 
+    <div id="yukleniyor" class="lds-ripple" style="display: none">
+        <div></div>
+        <div></div>
+    </div>
 
     <script>
         $(document).ready(function () {
