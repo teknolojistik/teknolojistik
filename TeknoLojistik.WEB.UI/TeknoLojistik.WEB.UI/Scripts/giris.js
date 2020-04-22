@@ -6,8 +6,26 @@
 
     OturumAc: function () {
 
+        $("#window").kendoWindow(
+            {
+                title: "GİRİŞ",
+                height: 350,
+                width: 400,
+                modal: true,
+                color: "pink",
+                animation: {
+                    open: {
+                        effects: "fade:in"
+                    }
+                },
+                close: {
+                    duration: 2000
+                },
+                visible: false
+            }).data("kendoWindow").center().open();
+
         $("#btnGiris").click(function () {
-            var kullaniciad = $("#txtEposta").val();
+            var kullaniciad = $("#txtKullanici").val();
             var sifre = $("#txtSifre").val();
             var kullanici = {
                 KullaniciAd: kullaniciad,
@@ -15,7 +33,7 @@
             }
 
             if (kullanici.KullaniciAd == '' || kullanici.Sifre == '')
-                alert("Boşlukları doldurun!");
+                return kendo.alert("Boşlukları doldurun!");
 
             Giris(kullanici);
         })
@@ -39,8 +57,12 @@
                             window.location.href = "/Pages/Anasayfa/Personel.aspx";
                     }
                     else {
-                        alert("Kullanıcı adı veya şifre hatalı!");
-                        window.location.href = "/Pages/Giris.aspx";
+                        kendo.alert("Kullanıcı adı veya şifre hatalı!");
+                        //window.location.href = "/Pages/Giris.aspx";
+
+                        setTimeout(function () {
+                            window.location.href = "/Pages/Giris.aspx";
+                        }, 2000);
                     }
                 },
                 error: function (o) {
