@@ -14,13 +14,34 @@
                 dataValueField: "Id",
                 dataSource: veri,
                 change: Degisim,
-                optionLabel: "İl seçiniz"
+                optionLabel: "İl seçiniz",
+
+                animation: {
+                    close: {
+                        effects: "fadeOut zoom:out",
+                        duration: 300
+                    },
+                    open: {
+                        effects: "fadeIn zoom:in",
+                        duration: 300
+                    }
+                }
             });
 
             $("#ilce").kendoDropDownList({
                 dataTextField: "Ad",
                 dataValueField: "Id",
-                optionLabel: "İlçe seçiniz"
+                optionLabel: "İlçe seçiniz",
+                animation: {
+                    close: {
+                        effects: "fadeOut zoom:out",
+                        duration: 300
+                    },
+                    open: {
+                        effects: "fadeIn zoom:in",
+                        duration: 300
+                    }
+                }
             })
         }
 

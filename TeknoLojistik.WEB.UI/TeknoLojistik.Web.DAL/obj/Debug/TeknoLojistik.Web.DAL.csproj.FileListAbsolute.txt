@@ -63,3 +63,6 @@ D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.DAL\ob
 D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.DAL\obj\Debug\TeknoLojistik.Web.DAL.Migrations.AracPlakaUzunluk.resources
 D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.DAL\obj\Debug\TeknoLojistik.Web.DAL.Migrations.SehirlerAdDuzenleme.resources
 D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.DAL\obj\Debug\TeknoLojistik.Web.DAL.Migrations.IlceAdDuzenleme.resources
+C:\Users\eda\Desktop\Tutanamayanlar\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.DAL\obj\Debug\TeknoLojistik.Web.DAL.Migrations.AracPlakaUzunluk.resources
+C:\Users\eda\Desktop\Tutanamayanlar\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.DAL\obj\Debug\TeknoLojistik.Web.DAL.Migrations.SehirlerAdDuzenleme.resources
+C:\Users\eda\Desktop\Tutanamayanlar\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.DAL\obj\Debug\TeknoLojistik.Web.DAL.Migrations.IlceAdDuzenleme.resources
