@@ -2,6 +2,7 @@
     background-color: darkgray;
 }
 
+
 #divGiris {
     position: absolute;
     background-color: lightgray;
@@ -11,30 +12,98 @@
     left: 35%;
 }
 
-.txt {
+#txtKullanici {
     width: 250px;
-    height: 22px;
+    height: 25px;
+    border: solid 1px;
+    border-radius: 10px;
 }
 
-#divEposta {
+#txtSifre {
+    width: 250px;
+    height: 25px;
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+#divKullaniciAd {
     position: absolute;
-    left: 20%;
-    top: 50px;
+    left: 17%;
+    top: 80px;
 }
 
 #divSifre {
     position: absolute;
-    left: 20%;
-    top: 120px;
+    left: 17%;
+    top: 150px;
 }
 
 #divGirisYap {
     position: absolute;
-    left: 40%;
-    top: 200px;
+    right: 19%;
+    top: 230px;
 }
 
 #btnGiris {
     height: 40px;
     width: 70px;
+    border-radius: 10px;
+}
+
+
+#Baslik {
+    position: absolute;
+    height: 75px;
+    width: 150px;
+    left: 28%;
+    top: 0px;
+}
+
+.k-window-action {
+    visibility: hidden;
+}
+
+.k-dialog.k-alert .k-dialog-titlebar {
+    background-color: #333;
+    color: #eee;
+}
+
+.lds-ripple {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    left: 48%;
+    top: 340px;
+    z-index: 99999
+}
+
+    .lds-ripple div {
+        position: absolute;
+        border: 4px solid green;
+        opacity: 1;
+        border-radius: 50%;
+        animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+    }
+
+        .lds-ripple div:nth-child(2) {
+            animation-delay: -0.5s;
+        }
+
+@keyframes lds-ripple {
+    0% {
+        top: 36px;
+        left: 36px;
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+
+    100% {
+        top: 0px;
+        left: 0px;
+        width: 72px;
+        height: 72px;
+        opacity: 0;
+    }
 }

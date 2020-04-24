@@ -42,6 +42,25 @@
             Giris(kullanici);
         })
 
+        $("#txtSifre").keyup(function (e) {
+            if (e.keyCode === 13) {
+                $("#yukleniyor").show();
+                var kullaniciad = $("#txtKullanici").val();
+                var sifre = $("#txtSifre").val();
+                var kullanici = {
+                    KullaniciAd: kullaniciad,
+                    Sifre: sifre
+                }
+
+                if (kullanici.KullaniciAd == '' || kullanici.Sifre == '') {
+                    $("#yukleniyor").hide();
+                    return kendo.alert("Boşlukları doldurun!");
+                }
+
+                Giris(kullanici);
+            }
+        });
+
         function Giris(data) {
             $.ajax({
                 url: "/Services/Giris.asmx/OturumAc",
