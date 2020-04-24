@@ -1,7 +1,9 @@
 ﻿var Giris = {
 
     Setup: function () {
+
         this.OturumAc();
+
     },
 
     OturumAc: function () {
@@ -12,7 +14,6 @@
                 height: 350,
                 width: 400,
                 modal: true,
-                color: "pink",
                 animation: {
                     open: {
                         effects: "fade:in"
@@ -40,7 +41,7 @@
             }
 
             Giris(kullanici);
-        })
+        });
 
         $("#txtSifre").keyup(function (e) {
             if (e.keyCode === 13) {
@@ -81,7 +82,6 @@
                     }
                     else {
                         kendo.alert("Kullanıcı adı veya şifre hatalı!");
-                        //window.location.href = "/Pages/Giris.aspx";
 
                         setTimeout(function () {
                             window.location.href = "/Pages/Giris.aspx";
@@ -95,5 +95,3 @@
         }
     }
 }
-
-
