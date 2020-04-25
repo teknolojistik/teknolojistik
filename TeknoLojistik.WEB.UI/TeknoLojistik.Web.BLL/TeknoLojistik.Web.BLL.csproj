@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="bllArac.cs" />
     <Compile Include="bllBase.cs" />
     <Compile Include="bllCRUD.cs" />
     <Compile Include="bllGenel.cs" />
