@@ -27,9 +27,17 @@ namespace TeknoLojistik.WEB.UI.Services
         }
 
         [WebMethod]
+        
         public bool Ekle(Arac a)
         {
             return bllArac.Ekle(a);
+        }
+
+
+        [WebMethod]
+        public int Sil(int a)
+        {
+            return bllArac.Sil(a);
         }
     }
 }

@@ -5,37 +5,39 @@
     <title></title>
 </head>
 <body>
-    <div>
-        <label>Plaka: </label>
-        <input type="text" id="txtPlaka" />
-    </div>
-    <br />
-    <div>
-        <label>Plaka 2: </label>
-        <input type="text" id="txtPlaka2" />
-    </div>
-    <br />
-    <div>
-        <label>Marka: </label>
-        <input type="text" id="txtMarka" />
-    </div>
-    <br />
-    <div>
-        <label>Model: </label>
-        <input type="text" id="txtModel" />
-    </div>
-    <br />
-    <div>
-        <label>Yıl: </label>
-        <input type="text" id="txtYil" />
-    </div>
-    <br />
-    <div>
-        <label>Kapasite: </label>
-        <input type="text" id="txtKapasite" />
-    </div>
-    <div>
-        <input type="button" id="btnKaydet" class="k-button" value="Kaydet" />
+    <div id="aracEkle">
+        <div>
+            <label>Plaka: </label>
+            <input type="text" id="txtPlaka" data-bind="value:Plaka" />
+        </div>
+        <br />
+        <div>
+            <label>Plaka 2: </label>
+            <input type="text" id="txtPlaka2" data-bind="value:Plaka2" />
+        </div>
+        <br />
+        <div>
+            <label>Marka: </label>
+            <input type="text" id="txtMarka" data-bind="value:Marka" />
+        </div>
+        <br />
+        <div>
+            <label>Model: </label>
+            <input type="text" id="txtModel" data-bind="value:Model" />
+        </div>
+        <br />
+        <div>
+            <label>Yıl: </label>
+            <input type="text" id="txtYil" data-bind="value:Yil" />
+        </div>
+        <br />
+        <div>
+            <label>Kapasite: </label>
+            <input type="text" id="txtKapasite" data-bind="value:Kapasite" />
+        </div>
+        <div>
+            <input type="button" id="btnKaydet" class="k-button" value="Kaydet" />
+        </div>
     </div>
 </body>
 </html>

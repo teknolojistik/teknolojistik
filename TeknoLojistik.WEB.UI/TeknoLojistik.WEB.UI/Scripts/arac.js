@@ -3,6 +3,7 @@
     Setup: function () {
         this.GridOlustur();
         this.Ekle();
+        this.Sil();
     },
 
     GridOlustur: function () {
@@ -71,8 +72,14 @@
                         field: "Kapasite",
                         height: 100,
                         title: "Kapasite"
+                    },
+                    {
+                        command: [{
+                            className: "btn-destroy", name: "destroy", text: "Remove", style="color: red;" }]
+                    
                     }
-                ]
+                ],
+                editable: true,
             });
         }
     },
@@ -138,5 +145,51 @@
                 }
             })
         }
+    },
+
+      Sil: function () {
+
+        var self = this;
+
+          function Sil() {
+             
+
+            win.element.on("click", "#btnSil", function () {
+                Sil();
+            });
+        }
+
+        function Sil() {
+            
+            $.ajax({
+                url: "/Services/srvArac.asmx/Sil",
+                data: JSON.stringify({ a: data }),
+                method: "post",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (o) {
+                    console.log("Giris metodu successe girdi.");
+                    var sonuc = o.d;
+                    $("#yukleniyor").hide();
+                    if (sonuc)
+                        kendo.alert("Araç Silindi.");
+                    else
+                        kendo.alert("Bir hata oluştu!");
+
+                    self.GridOlustur();
+                    var win = $("#window").data("kendoWindow");
+                    win.close();
+
+                },
+                error: function (o) {
+                    console.log(o);
+                }
+            })
+        }
     }
+
+
+
+
+
 }

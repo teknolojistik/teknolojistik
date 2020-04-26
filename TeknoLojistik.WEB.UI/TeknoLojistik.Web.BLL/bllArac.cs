@@ -33,5 +33,17 @@ namespace TeknoLojistik.Web.BLL
                 throw;
             }
         }
+
+        public static int Sil(int a)
+        {
+            try
+            {
+                return dalArac.Sil(a);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
     }
 }
