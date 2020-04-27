@@ -78,6 +78,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Gorseller\gizlegoster.png" />
     <Content Include="Gorseller\yukleniyor.gif" />
     <Content Include="Gorseller\giris.png" />
     <Content Include="lib\css\bootstrap\bootstrap-grid.css" />
@@ -99,7 +100,8 @@
     <Content Include="Pages\Giris.aspx" />
     <Content Include="Pages\Admin\Muhasebe.aspx" />
     <Content Include="Pages\Anasayfa\Personel.aspx" />
-    <Content Include="Pages\Personel\Nakliye.aspx" />
+    <Content Include="Pages\Personel\Araclar.aspx" />
+    <Content Include="Scripts\arac.js" />
     <Content Include="Scripts\genel.js" />
     <Content Include="lib\css\genel.css" />
     <Content Include="lib\css\styles.css" />
@@ -108,8 +110,10 @@
     <Content Include="Services\Genel.asmx" />
     <Content Include="Services\Giris.asmx" />
     <Content Include="Scripts\giris.js" />
+    <Content Include="Services\srvArac.asmx" />
     <Content Include="Styles\genel.css" />
     <Content Include="Styles\giris.css" />
+    <Content Include="View\Arac\Ekle.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -165,12 +169,12 @@
     <Compile Include="Pages\Anasayfa\Personel.aspx.designer.cs">
       <DependentUpon>Personel.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Personel\Nakliye.aspx.cs">
-      <DependentUpon>Nakliye.aspx</DependentUpon>
+    <Compile Include="Pages\Personel\Araclar.aspx.cs">
+      <DependentUpon>Araclar.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\Personel\Nakliye.aspx.designer.cs">
-      <DependentUpon>Nakliye.aspx</DependentUpon>
+    <Compile Include="Pages\Personel\Araclar.aspx.designer.cs">
+      <DependentUpon>Araclar.aspx</DependentUpon>
     </Compile>
     <Compile Include="Services\Genel.asmx.cs">
       <DependentUpon>Genel.asmx</DependentUpon>
@@ -181,6 +185,10 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\srvArac.asmx.cs">
+      <DependentUpon>srvArac.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Pages\Master\Genel.Master" />

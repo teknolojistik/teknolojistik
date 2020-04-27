@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="dalArac.cs" />
     <Compile Include="dalCRUD.cs" />
     <Compile Include="dalGenel.cs" />
     <Compile Include="dalGiris.cs" />

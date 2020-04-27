@@ -13,3 +13,6 @@ D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.DAL\ob
 D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.DAL\obj\Release\TeknoLojistik.Web.DAL.csproj.CopyComplete
 D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.DAL\obj\Release\TeknoLojistik.Web.DAL.dll
 D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.DAL\obj\Release\TeknoLojistik.Web.DAL.pdb
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.DAL\obj\Release\TeknoLojistik.Web.DAL.Migrations.AracPlakaUzunluk.resources
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.DAL\obj\Release\TeknoLojistik.Web.DAL.Migrations.SehirlerAdDuzenleme.resources
+D:\Ossy Files\GitHub\teknolojistik\TeknoLojistik.WEB.UI\TeknoLojistik.Web.DAL\obj\Release\TeknoLojistik.Web.DAL.Migrations.IlceAdDuzenleme.resources

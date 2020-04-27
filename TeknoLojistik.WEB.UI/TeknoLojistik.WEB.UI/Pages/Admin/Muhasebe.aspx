@@ -12,7 +12,7 @@
     </div>
 </asp:Content>
 
-<asp:Content ID="Content" ContentPlaceHolderID="Content" runat="server">
+<asp:Content ID="Icerik" ContentPlaceHolderID="Icerik" runat="server">
 
     <script src="../../Scripts/muhasebe.js"></script>
     <div id="loading" style="z-index:9999999"></div>

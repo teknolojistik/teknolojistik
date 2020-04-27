@@ -6,19 +6,60 @@
 
     OturumAc: function () {
 
+        $("#window").kendoWindow(
+            {
+                title: "GİRİŞ",
+                height: 350,
+                width: 400,
+                modal: true,
+                color: "pink",
+                animation: {
+                    open: {
+                        effects: "fade:in"
+                    }
+                },
+                close: {
+                    duration: 2000
+                },
+                visible: false,
+                zIndex: 99
+            }).data("kendoWindow").center().open();
+
         $("#btnGiris").click(function () {
-            var kullaniciad = $("#txtEposta").val();
+            $("#yukleniyor").show();
+            var kullaniciad = $("#txtKullanici").val();
             var sifre = $("#txtSifre").val();
             var kullanici = {
                 KullaniciAd: kullaniciad,
                 Sifre: sifre
             }
 
-            if (kullanici.KullaniciAd == '' || kullanici.Sifre == '')
-                alert("Boşlukları doldurun!");
+            if (kullanici.KullaniciAd == '' || kullanici.Sifre == '') {
+                $("#yukleniyor").hide();
+                return kendo.alert("Boşlukları doldurun!");
+            }
 
             Giris(kullanici);
         })
+
+        $("#txtSifre").keyup(function (e) {
+            if (e.keyCode === 13) {
+                $("#yukleniyor").show();
+                var kullaniciad = $("#txtKullanici").val();
+                var sifre = $("#txtSifre").val();
+                var kullanici = {
+                    KullaniciAd: kullaniciad,
+                    Sifre: sifre
+                }
+
+                if (kullanici.KullaniciAd == '' || kullanici.Sifre == '') {
+                    $("#yukleniyor").hide();
+                    return kendo.alert("Boşlukları doldurun!");
+                }
+
+                Giris(kullanici);
+            }
+        });
 
         function Giris(data) {
             $.ajax({
@@ -30,17 +71,21 @@
                 success: function (o) {
                     console.log("Giris metodu successe girdi.");
                     var sonuc = o.d;
-
+                    $("#yukleniyor").hide();
                     if (sonuc != null) {
                         if (sonuc.Admin)
-                            window.location.href = "/Pages/Admin.aspx";
+                            window.location.href = "/Pages/Anasayfa/Admin.aspx";
 
                         else
-                            window.location.href = "/Pages/Personel.aspx";
+                            window.location.href = "/Pages/Anasayfa/Personel.aspx";
                     }
                     else {
-                        alert("Kullanıcı adı veya şifre hatalı!");
-                        window.location.href = "/Pages/Giris.aspx";
+                        kendo.alert("Kullanıcı adı veya şifre hatalı!");
+                        //window.location.href = "/Pages/Giris.aspx";
+
+                        setTimeout(function () {
+                            window.location.href = "/Pages/Giris.aspx";
+                        }, 2000);
                     }
                 },
                 error: function (o) {
