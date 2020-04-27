@@ -27,6 +27,7 @@
 
         $("#btnGiris").click(function () {
             $("#yukleniyor").show();
+            kendo.ui.progress($("#loading"), true);
             var kullaniciad = $("#txtKullanici").val();
             var sifre = $("#txtSifre").val();
             var kullanici = {
@@ -36,6 +37,7 @@
 
             if (kullanici.KullaniciAd == '' || kullanici.Sifre == '') {
                 $("#yukleniyor").hide();
+                kendo.ui.progress($("#loading"), false);
                 return kendo.alert("Boşlukları doldurun!");
             }
 

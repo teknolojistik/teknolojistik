@@ -15,7 +15,7 @@
 <asp:Content ID="Content" ContentPlaceHolderID="Content" runat="server">
 
     <script src="../../Scripts/muhasebe.js"></script>
-
+    <div id="loading" style="z-index:9999999"></div>
     <div>
         <input id="il" />
     </div>

@@ -2,6 +2,7 @@
 
     Setup: function () {
         this.ilListele();
+        kendo.ui.progress($("#loading"), true);
     },
 
     ilListele: function () {

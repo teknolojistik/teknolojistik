@@ -37,6 +37,8 @@
         <div></div>
     </div>
 
+    <div id="loading"></div>
+
     <script>
         $(document).ready(function () {
             Giris.Setup();
