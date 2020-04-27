@@ -75,11 +75,17 @@
                     },
                     {
                         command: [{
-                            className: "btn-destroy", name: "destroy", text: "Remove", style="color: red;" }]
-                    
+                            className: "btn-destroy", name: "destroy", text: "Remove", style: "color: red;"
+                        }]
                     }
                 ],
                 editable: true,
+                remove: function (e) {
+                    console.log(e);
+                    //Sil metodunu burada çağırıp 'e' içinde gelen veride Id değerini yakalayarak parametre olarak göndermelisin.
+                    //Kontroller çok önemlidir. Örneğin 'e' değerinin veya Id değerinin null gelebilme şeysini falan kontrole almalısın.
+                    //Umutsuz durum yoktur. Umutsuz insan vardır.
+                }
             });
         }
     },
@@ -147,12 +153,11 @@
         }
     },
 
-      Sil: function () {
+    Sil: function () {
 
         var self = this;
 
-          function Sil() {
-             
+        function Sil() {
 
             win.element.on("click", "#btnSil", function () {
                 Sil();
@@ -160,7 +165,7 @@
         }
 
         function Sil() {
-            
+
             $.ajax({
                 url: "/Services/srvArac.asmx/Sil",
                 data: JSON.stringify({ a: data }),
@@ -187,9 +192,5 @@
             })
         }
     }
-
-
-
-
 
 }
